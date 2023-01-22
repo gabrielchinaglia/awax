@@ -185,7 +185,7 @@ header {
 }
 
 .default .section-desc {
-    font-weight: 12px;
+    font-size: 12px;
     color: #CCC;
     margin-top: 10px;
     margin-bottom: 40px;
@@ -750,4 +750,132 @@ header {
 .section-products--button {
     display: flex;
     justify-content: center;
+}
+
+
+.section-facts {
+    display: flex;
+}
+
+.section-fact {
+    flex: 1;
+    text-align: center;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-fact--up {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-fact--down {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.section-fact--number {
+    font-size: 32px;
+    font-weight: bold;
+    color: #B28756;
+}
+
+.section-fact--detail {
+    display: inline-block;
+    height: 3px;
+    width: 15px;
+    margin-top: 5px;
+    background-color: #999;
+}
+
+.section-fact h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.section-fact p {
+    color: #999;
+    font-size: 13px;
+}
+
+
+.section-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70px;
+    width: 100%;
+    max-width: 720px;
+    margin: auto;
+}
+
+.section-social--label,
+.social-media {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: #CCC;
+    text-transform: uppercase;
+}
+
+.section-social--label {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.section-social--label img {
+    padding-right: 15px;
+}
+
+.section-social--medias {
+    display: flex;
+}
+
+.social-media {
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.social-media--img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.social-media--img.twitter {
+    background-color: #33C4F0;
+}
+
+.social-media--img.linkedin {
+    background-color: #117CB4;
+}
+
+.social-media--img.facebook {
+    background-color: #326195;
+}
+
+.social-media--img.googleplus {
+    background-color: #E84138;
+}
+
+.social-media--img.pinterest {
+    background-color: #B51D2C;
+}
+
+.social-media--numbers {
+    padding: 0 5px;
 }
