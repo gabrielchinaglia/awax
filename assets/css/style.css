@@ -808,6 +808,10 @@ header {
 
 
 .section-social {
+    width: 100%;
+}
+
+.section-social-area {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -878,4 +882,60 @@ header {
 
 .social-media--numbers {
     padding: 0 5px;
+}
+
+
+.section-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-contact-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 550px;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.line > input {
+    width: calc(50% - 10px);
+}
+
+.line:nth-child(2) > input {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.line textarea {
+    width: 100%;
+    resize: none;
+    height: 40px;
+}
+
+.section-contact-area input,
+.section-contact-area textarea {
+    padding: 10px 0;
+    border: none;
+    background-color: #F7F7F7;
+    border-bottom: 2px solid #aaa;
+    outline: none;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.section-contact-area input::placeholder,
+.section-contact-area textarea::placeholder {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #aaa;
 }
